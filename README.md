@@ -1,4 +1,5 @@
 # 🤖 Efraim Bot 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 Efraim é um assistente virtual offline com reconhecimento de voz, síntese de fala e integração com um modelo de linguagem natural local (LLM), usando a biblioteca `<span>llama-cpp-python</span>`. Tudo roda no seu computador, sem precisar da internet ou servidores externos!
 
@@ -80,7 +81,7 @@ N_GPU_LAYERS = 100
 
 ## 📝 Licença
 
-⚠️ Ainda será definida.
+📄 Este projeto está licenciado sob a [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — uso permitido apenas para fins **não comerciais**, com atribuição ao autor.
 
 ---
 
