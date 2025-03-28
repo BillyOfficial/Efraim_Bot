@@ -1,0 +1,45 @@
+[MASTER]
+ignore=venv
+jobs=1
+load-plugins=pylint.extensions.docparams
+
+[MESSAGES CONTROL]
+disable=
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    invalid-name,
+    too-few-public-methods,
+    no-else-return
+
+[REPORTS]
+output-format=colorized
+reports=no
+score=yes
+
+[FORMAT]
+max-line-length=100
+indent-string='    '
+expected-line-ending-format=LF
+
+[BASIC]
+good-names=i,j,k,x,y,z,_,db,os,sr,ll
+argument-naming-style=snake_case
+variable-naming-style=snake_case
+function-naming-style=snake_case
+class-naming-style=PascalCase
+const-naming-style=UPPER_CASE
+method-naming-style=snake_case
+
+[TYPECHECK]
+ignore-mixin-members=yes
+
+[DESIGN]
+max-args=5
+max-attributes=10
+max-locals=15
+max-returns=6
+max-branches=12
+max-statements=50
+max-parents=7
+max-public-methods=20

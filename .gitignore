@@ -1,0 +1,14 @@
+# Ambiente virtual
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Modelos grandes
+modelo/*.gguf
+
+# Arquivos locais/sensíveis
+.env
+.vscode/
+.qodo
