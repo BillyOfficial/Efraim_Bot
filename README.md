@@ -1,4 +1,4 @@
-# Efraim Bot 🤖
+# 🤖 Efraim Bot 
 
 Efraim é um assistente virtual offline com reconhecimento de voz, síntese de fala e integração com um modelo de linguagem natural local (LLM), usando a biblioteca `<span>llama-cpp-python</span>`. Tudo roda no seu computador, sem precisar da internet ou servidores externos!
 
